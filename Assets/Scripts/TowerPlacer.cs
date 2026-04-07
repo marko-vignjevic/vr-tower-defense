@@ -30,7 +30,6 @@ public class TowerPlacer : MonoBehaviour
         HandlePlacement();
     }
 
-    // call this from your shop UI to start placing
     public void StartPlacing(GameObject prefab, int cost)
     {
         // Place a new tower if not already placing one, otherwise cancel current placement

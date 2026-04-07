@@ -8,7 +8,7 @@ public class MortarTower : MonoBehaviour
     [Header("Shooting")]
     public GameObject mortarProjectilePrefab;
     public Transform firePoint;
-    public float fireRate = 0.5f; // shots per second, mortars are slow
+    public float fireRate = 0.5f;
     private float fireCooldown = 0f;
 
     private Transform currentTarget;

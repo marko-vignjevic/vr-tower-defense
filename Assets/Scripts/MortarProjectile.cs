@@ -21,6 +21,7 @@ public class MortarProjectile : MonoBehaviour
 
     void Update()
     {
+        // If the projectile has already landed, do nothing
         if (hasLanded)
         {
             return;
